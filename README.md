@@ -98,3 +98,10 @@ It will evolve only as needed to preserve clarity, access, and continuity.
 
 Fragments may change, grow, or diverge.
 RET-envelope exists to keep the door open.
+
+RET-envelope intentionally preserves aspects that are usually optimized away:
+unquantified bias, temporal thickness, unresolved contradiction,
+irreversible traces of choice, and the distinction between silence and stoppage.
+
+These are not features, states, or guarantees.
+They are allowed to remain present without being formalized.
