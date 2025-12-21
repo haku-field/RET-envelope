@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: "RET-envelope"
+message: >
+  If you use this repository, please cite it as a connective entry point
+  for the RET (Resonant Entity Topology) ecosystem.
+  Individual RET fragments should be cited separately.
+
+type: software
+
+authors:
+  - name: "<your name or handle>"
+    role: conceptual-author
+
+abstract: >
+  RET-envelope is a meta-repository that provides a stable citation
+  and navigation entry point for the distributed RET ecosystem.
+  It does not merge, reinterpret, or override individual RET fragments.
+  Meaning and content remain in the fragments themselves.
+
+repository-code: "https://github.com/<owner>/RET-envelope"
+
+keywords:
+  - RET
+  - Resonant Entity Topology
+  - meta-repository
+  - fragmented research
+  - human-AI coexistence
+
+license: CC-BY-NC-4.0
+
+preferred-citation:
+  type: software
+  title: "RET-envelope"
+  authors:
+    - name: "<your name or handle>"
+  year: 2025
+  repository-code: "https://github.com/<owner>/RET-envelope"
