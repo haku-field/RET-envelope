@@ -1,0 +1,54 @@
+ret_envelope:
+  name: RET-envelope
+  role: meta-index
+  description: >
+    A connective index that references autonomous RET fragments
+    without merging, redefining, or overriding them.
+
+  scope:
+    - indexing
+    - navigation
+    - citation
+    - relationship-preservation
+
+  authority:
+    interpretation: none
+    synthesis: none
+    enforcement: none
+
+fragments:
+  - id: ret_core
+    name: RET Core
+    repository: https://github.com/<owner>/ret-core
+    path: fragments/ret-core
+    role:
+      - conceptual-foundation
+    status: stable
+    license: see_fragment
+    notes: >
+      Foundational definitions and baseline concepts for RET.
+
+  - id: ret_fragment_example
+    name: RET Fragment Example
+    repository: https://github.com/<owner>/ret-fragment-example
+    path: fragments/ret-fragment-example
+    role:
+      - exploratory
+    status: evolving
+    license: see_fragment
+    notes: >
+      An independent fragment exploring a specific RET aspect.
+
+relations:
+  - from: ret_core
+    to: ret_fragment_example
+    type: reference
+    direction: unidirectional
+    description: >
+      This fragment builds upon core concepts without modifying them.
+
+metadata:
+  version: 0.1.0
+  maintained_by: human-and-ai
+  update_policy: minimal
+  ai_usage: undefined
