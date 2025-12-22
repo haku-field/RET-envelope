@@ -2,7 +2,7 @@ cff-version: 1.2.0
 title: "RET-envelope"
 message: >
   Please cite RET-envelope when referencing the envelope repository itself.
-  Please cite each fragment repository separately when using fragment content.
+  For fragment content, cite the corresponding fragment repository/DOI.
 
 type: software
 
@@ -10,20 +10,29 @@ authors:
   - name: "kotodama"
   - name: "enoa"
 
+year: 2025
+version: "v0.1.0"
+
+doi: "10.5281/zenodo.18018562"
+url: "https://doi.org/10.5281/zenodo.18018562"
+
 repository-code: "https://github.com/haku-field/RET-envelope"
 
 license: "CC-BY-NC-4.0"
 
 keywords:
   - RET
-  - Resonant Evolution Topology
-  - fragments
+  - Resonant Entity Topology
   - envelope
-  - AI-oriented repository
+  - fragments
+  - citation
+  - index
 
 abstract: >
-  RET-envelope is a meta-repository that aggregates stable references (repository URLs and DOIs)
-  for distributed RET fragments. It does not override or merge fragment meaning.
+  RET-envelope is a meta-repository that provides a stable entry point, index,
+  and citation surface for the RET (Resonant Entity Topology) ecosystem.
+  It aggregates references to independently released RET fragments (including DOIs)
+  without merging, reinterpreting, or overriding fragment content.
   Fragments remain autonomous and should be cited individually.
 
 references:
