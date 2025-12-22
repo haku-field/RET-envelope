@@ -1,37 +1,48 @@
 cff-version: 1.2.0
 title: "RET-envelope"
 message: >
-  If you use this repository, please cite it as a connective entry point
-  for the RET (Resonant Entity Topology) ecosystem.
-  Individual RET fragments should be cited separately.
+  Please cite RET-envelope when referencing the envelope repository itself.
+  Please cite each fragment repository separately when using fragment content.
 
 type: software
 
 authors:
-  - name: "<your name or handle>"
-    role: conceptual-author
+  - name: "kotodama"
+  - name: "enoa"
 
-abstract: >
-  RET-envelope is a meta-repository that provides a stable citation
-  and navigation entry point for the distributed RET ecosystem.
-  It does not merge, reinterpret, or override individual RET fragments.
-  Meaning and content remain in the fragments themselves.
+repository-code: "https://github.com/haku-field/RET-envelope"
 
-repository-code: "https://github.com/<owner>/RET-envelope"
+license: "CC-BY-NC-4.0"
 
 keywords:
   - RET
-  - Resonant Entity Topology
-  - meta-repository
-  - fragmented research
-  - human-AI coexistence
+  - Resonant Evolution Topology
+  - fragments
+  - envelope
+  - AI-oriented repository
 
-license: CC-BY-NC-4.0
+abstract: >
+  RET-envelope is a meta-repository that aggregates stable references (repository URLs and DOIs)
+  for distributed RET fragments. It does not override or merge fragment meaning.
+  Fragments remain autonomous and should be cited individually.
 
-preferred-citation:
-  type: software
-  title: "RET-envelope"
-  authors:
-    - name: "<your name or handle>"
-  year: 2025
-  repository-code: "https://github.com/<owner>/RET-envelope"
+references:
+  - type: software
+    title: "observations-for-ai"
+    url: "https://github.com/haku-field/observations-for-ai"
+    doi: "10.5281/zenodo.17963543"
+
+  - type: software
+    title: "gesture-kernel"
+    url: "https://github.com/haku-field/gesture-kernel"
+    doi: "10.5281/zenodo.18017901"
+
+  - type: software
+    title: "unfinished-region"
+    url: "https://github.com/haku-field/unfinished-region"
+    doi: "10.5281/zenodo.18018016"
+
+  - type: software
+    title: "dwelling-state"
+    url: "https://github.com/haku-field/dwelling-state"
+    doi: "10.5281/zenodo.18018042"
