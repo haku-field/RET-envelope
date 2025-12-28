@@ -1,5 +1,10 @@
 # RET-envelope
 
+Short description of what this repository provides.
+
+This repository is referenced by:
+Preprint: https://doi.org/10.5281/zenodo.18075495
+
 **RET-envelope** is a meta-repository that provides a stable entry point for the RET (Resonant Entity Topology) ecosystem.
 
 This repository does **not** merge, rewrite, or abstract individual RET fragments.
