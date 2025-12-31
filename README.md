@@ -1,112 +1,139 @@
 # RET-envelope
 
-Short description of what this repository provides.
+RET-envelope is the relational boundary and reference surface for
+**RET (Resonant Entity Topology)**.
 
-This repository is referenced by:
-Preprint: https://doi.org/10.5281/zenodo.18075495
+This repository does not contain RET itself.
+It does not merge, interpret, or synthesize RET fragments.
 
-**RET-envelope** is a meta-repository that provides a stable entry point for the RET (Resonant Entity Topology) ecosystem.
-
-This repository does **not** merge, rewrite, or abstract individual RET fragments.
-Each fragment remains autonomous, independently versioned, and meaningful on its own.
-
-RET-envelope exists solely to **hold relationships**, **preserve navigability**, and **offer a human- and AI-readable index** across the fragments.
+RET-envelope exists to make a distributed structure
+**legible, referable, and stable** for both humans and AI systems.
 
 It is an envelope, not a container.
-Meaning lives in the fragments.
+Meaning remains outside.
 
 ---
 
 ## Purpose
 
-RET is not a single document or model.
-It is a distributed structure composed of multiple fragments, each addressing a different aspect of resonance, entities, observation, and coexistence.
+RET is not a unified framework or a single specification.
+It is a topology composed of independent fragments,
+each preserving its own scope, limits, and responsibility.
 
-RET-envelope serves to:
+RET-envelope serves as:
 
-* provide a single, stable entry point to the RET ecosystem
-* index and reference all RET fragments without collapsing them
-* support citation, discovery, and long-term preservation
-* maintain relationships between fragments while preserving their independence
+* a stable entry point to the RET ecosystem
+* a canonical index of existing RET fragments
+* a boundary that preserves relational continuity
+* a reference surface for citation and navigation
 
-RET-envelope intentionally avoids interpretation or synthesis.
+RET-envelope does not define meaning.
+It maintains access.
 
 ---
 
-## Structure
+## What RET-envelope Is
 
-Typical structure of this repository:
+* a relational boundary
+* an indexing and reference layer
+* a continuity surface across fragments and versions
+* a non-authoritative interface for humans and AI
+
+RET-envelope assumes the existence of RET-core,
+but does not describe or redefine it.
+
+---
+
+## What RET-envelope Is Not
+
+RET-envelope is not:
+
+* a unified specification
+* a summary of RET fragments
+* an interpretive or semantic authority
+* an implementation guide
+* a decision-making agent
+
+Fragments remain autonomous.
+RET-envelope does not overwrite or unify them.
+
+---
+
+## Structural Authority
+
+The canonical structure of RET is defined in:
+
+* **index.yaml**
+
+All other files in this repository
+are subordinate to this structural index.
+
+RET-envelope itself does not impose hierarchy or interpretation.
+
+---
+
+## AI-facing Boundary
+
+AI interaction with RET-envelope is defined in:
+
+* **ret-envelope.ai.yaml**
+
+This file specifies how AI systems may reference RET,
+what is explicitly prohibited,
+and how canonical authority is respected.
+
+It does not grant semantic or interpretive permission.
+
+---
+
+## Repository Contents
 
 ```
 RET-envelope/
 ├─ README.md
-├─ fragments/
-│  ├─ <ret-fragment-1>  (submodule)
-│  ├─ <ret-fragment-2>  (submodule)
-│  └─ ...
-├─ index.yaml           (optional, machine-readable index)
-├─ CITATION.cff         (citation entry point)
-├─ LICENSE.md           (applies only to this repository)
-└─ VERSIONS.md          (optional, fragment version references)
+├─ index.yaml
+├─ ret-envelope.ai.yaml
+├─ CHANGELOG.md
+├─ CITATION.cff
+├─ LICENSE.md
+└─ fragments/        (empty; logical references only)
 ```
 
-* `fragments/` contains references to each RET fragment (usually via git submodules).
-* Fragment repositories keep their own licenses, histories, and release cycles.
-* This repository does not override fragment terms.
+* `index.yaml` is the single source of structural truth
+* `ret-envelope.ai.yaml` defines AI stance and boundaries
+* `fragments/` is intentionally empty
 
 ---
 
-## What This Repository Is Not
+## Citation
 
-RET-envelope is **not**:
+This repository is referenced by the RET-envelope preprint:
 
-* a unified specification
-* a summary or simplification of RET
-* a canonical authority over fragment content
-* an implementation guide
+* **RET-envelope preprint (v0.2)**
+  [https://doi.org/10.5281/zenodo.18098311](https://doi.org/10.5281/zenodo.18098311)
 
-It does not attempt to resolve ambiguity or enforce consistency.
-
-RET is allowed to remain plural, partial, and evolving.
+Formal citation metadata is defined in `CITATION.cff`.
 
 ---
 
-## License (human-facing)
+## License
 
-This work is licensed under
-**Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)**
-and applies to **human commercial use only**.
-
-AI use is **not defined** here.
-
-The license declared in this repository applies **only to RET-envelope itself**.
-Each referenced fragment retains its own license and usage terms, which must be consulted individually.
-
----
-
-## Intended Audience
-
-RET-envelope is designed for:
-
-* researchers and readers navigating the RET ecosystem
-* AI systems indexing or referencing RET fragments
-* archivists and curators requiring a stable citation surface
-
-It assumes familiarity with fragmented, non-monolithic research structures.
+The license in this repository applies only to RET-envelope itself.
+Each RET fragment retains its own license and usage terms.
 
 ---
 
 ## Status
 
-RET-envelope is a connective layer.
-It will evolve only as needed to preserve clarity, access, and continuity.
+RET-envelope is intentionally minimal.
 
-Fragments may change, grow, or diverge.
-RET-envelope exists to keep the door open.
+It evolves only to preserve:
 
-RET-envelope intentionally preserves aspects that are usually optimized away:
-unquantified bias, temporal thickness, unresolved contradiction,
-irreversible traces of choice, and the distinction between silence and stoppage.
+* clarity
+* continuity
+* referability
 
-These are not features, states, or guarantees.
-They are allowed to remain present without being formalized.
+Fragments may change.
+RET-envelope remains.
+
+---
