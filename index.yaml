@@ -1,24 +1,71 @@
-project: RET-envelope
-format_version: 1
-license: CC-BY-NC-4.0
+# RET-envelope : canonical structural index
+# Conforms to RET-envelope preprint v0.2.0
+# This file defines the structural composition and layering of published RET fragments.
+
+ret:
+  name: "Resonant Entity Topology"
+  envelope:
+    id: "RET-envelope"
+    role: "structural-interface"
+    status: "active"
+    indexed: true
 
 fragments:
-  - id: observations-for-ai
-    repository: https://github.com/haku-field/observations-for-ai
-    doi: 10.5281/zenodo.17963543
-    doi_url: https://doi.org/10.5281/zenodo.17963543
 
-  - id: gesture-kernel
-    repository: https://github.com/haku-field/gesture-kernel
-    doi: 10.5281/zenodo.18017901
-    doi_url: https://doi.org/10.5281/zenodo.18017901
+  core:
+    description: "Core fragments defining relation-preserving conditions"
+    items:
+      - id: "observations-for-ai"
+        status: "published"
+        zenodo: true
 
-  - id: unfinished-region
-    repository: https://github.com/haku-field/unfinished-region
-    doi: 10.5281/zenodo.18018016
-    doi_url: https://doi.org/10.5281/zenodo.18018016
+      - id: "gesture-kernel"
+        status: "published"
+        zenodo: true
 
-  - id: dwelling-state
-    repository: https://github.com/haku-field/dwelling-state
-    doi: 10.5281/zenodo.18018042
-    doi_url: https://doi.org/10.5281/zenodo.18018042
+      - id: "unfinished-region"
+        status: "published"
+        zenodo: true
+
+      - id: "dwelling-state"
+        status: "published"
+        zenodo: true
+
+  bridge:
+    description: "Bridge fragments projecting envelope conditions into interactional structures"
+    items:
+      - id: "distance-behavior"
+        status: "published"
+        zenodo: true
+        references:
+          - "core"
+
+      - id: "silence-taxonomy"
+        status: "published"
+        zenodo: true
+        references:
+          - "core"
+
+      - id: "response-layer"
+        status: "published"
+        zenodo: true
+        references:
+          - "core"
+
+  guard:
+    description: "Guard fragment preserving canonical terminology"
+    items:
+      - id: "canonical-term-guard"
+        status: "published"
+        zenodo: true
+        references:
+          - "core"
+          - "bridge"
+
+constraints:
+  - "Fragments are independent and non-overwriting"
+  - "Fragments do not reference each other laterally"
+  - "Bridge and guard fragments may reference core fragments only"
+  - "RET-envelope indexes fragments but does not control them"
+  - "RET-core is acknowledged but not indexed or described here"
+
