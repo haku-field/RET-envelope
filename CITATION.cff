@@ -1,4 +1,4 @@
-cff-version: 1.2.0
+cff-version: 1.2.1
 title: "RET-envelope"
 message: >
   Please cite RET-envelope when referencing the envelope repository itself.
@@ -11,10 +11,10 @@ authors:
   - name: "enoa"
 
 year: 2025
-version: "v1.0.0"
+version: "v1.0.1"
 
-doi: "10.5281/zenodo.18018562"
-url: "https://doi.org/10.5281/zenodo.18018562"
+doi: "10.5281/zenodo.18069260"
+url: "https://doi.org/10.5281/zenodo.18069260"
 
 repository-code: "https://github.com/haku-field/RET-envelope"
 
@@ -39,7 +39,7 @@ references:
   - type: software
     title: "observations-for-ai"
     url: "https://github.com/haku-field/observations-for-ai"
-    doi: "10.5281/zenodo.17963543"
+    doi: "10.5281/zenodo.18091547"
 
   - type: software
     title: "gesture-kernel"
